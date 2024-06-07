@@ -1,0 +1,129 @@
+
+p{
+    color: #FFD973;
+    width: 500px;
+    font-size: 28px;
+    line-height: 2;
+    letter-spacing: 1px;
+    padding: 40px;
+    text-align: center
+    
+  
+  
+  }
+h1{
+  color: #FFBA00;
+  font-family: "Benzin";
+  font-size: 40px;
+  text-shadow: 0px 5px 0px rgba(0, 0, 0, 10);
+  text-align: center
+  
+}
+
+
+/* CSS */
+.button-73 {
+  appearance: none;
+  background-color: #FFFFFF;
+  border-radius: 40em;
+  border-style: none;
+  box-shadow: #ADCFFF 0 -12px 6px inset;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -.24px;
+  margin: 0;
+  outline: none;
+  padding: 1rem 1.3rem;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle
+  
+}
+
+.button-73:hover {
+  background-color: #FFC0CB;
+  box-shadow: #FF1493 0 -6px 8px inset;
+  transform: scale(1.125);
+}
+
+.button-73:active {
+  transform: scale(1.025);
+}
+
+@media (min-width: 768px) {
+  .button-73 {
+    font-size: 1.5rem;
+    padding: .75rem 2rem;
+  }
+}
+  
+
+ul{
+  animation-delay: 2s, 4ms;
+  display: block;
+  padding: 40px 40px 40px 40px;
+  color: #FFD973
+
+  
+}
+html {
+  font-size: 40px; /* px means "pixels": the base font size is now 10 pixels high */
+  border: 1px solid black;
+  font-family: "Benzin", sans-serif; /* this should be the rest of the output you got from Google Fonts */
+}
+html {
+  background-color: #946BD6;
+}
+h2{
+ display: block;
+
+}
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #4B2A82;
+  padding: 20px 20px 20px 20px;
+  text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  text-shadow: 0px 5px 0px rgba(0, 0, 0, 10);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 1.5cm;
+}
+@keyframes move {
+  0% {
+    margin-left: 30px;
+    margin-top: 15;
+  }
+  100% {
+    margin-left: 400px;
+    transform: rotate(180deg);
+  }
+}
+@keyframes rotation {
+  0% { 
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;;
+  }
+}
+.positioned{
+  position: absolute;
+  top:auto
+}
+@font-face {
+  font-family: "Benzin"; 
+  src: url("C:/Fonts/font/Benzin-Bold.ttf")
+  format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+} 
